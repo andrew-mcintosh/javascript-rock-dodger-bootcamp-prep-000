@@ -108,7 +108,7 @@ function positionToInteger(p) {
 }
 
 function start() {
-  window.addEventListener('click', moveDodger);
+  window.addEventListener('keydown', moveDodger);
   START.style.display = 'none';
 
   gameInterval = setInterval(function() {
